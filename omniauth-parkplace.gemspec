@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Omniauth::Parkplace::VERSION
   spec.authors       = ["Joël Quenneville"]
   spec.email         = ["joelq@thoughtbot.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = 'Strategy for authenticating via parkplace'
+  spec.summary       = 'OmniAuth strategy for authenticating via parkplace'
   spec.homepage      = ""
   spec.license       = "MIT"
 
