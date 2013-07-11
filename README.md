@@ -6,7 +6,7 @@ An OmniAuth strategy for integrating with the Parkplace app.
 
 Add this line to your application's Gemfile:
 
-    gem 'omniauth-parkplace', github: 'AdvancedEnergyEconomy/omniauth-parkplace'
+    gem 'omniauth-parkplace', git: 'git@github.com:AdvancedEnergyEconomy/omniauth-parkplace.git'
 
 And then execute:
 
