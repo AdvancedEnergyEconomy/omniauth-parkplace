@@ -7,7 +7,7 @@ module Omniauth
         source_root File.expand_path('../templates', __FILE__)
 
         def create_parkplace_initializer
-          copy_file 'omniauth.rb', 'config/intializers/omniauth.rb'
+          copy_file 'omniauth.rb', 'config/initializers/omniauth.rb'
         end
       end
     end

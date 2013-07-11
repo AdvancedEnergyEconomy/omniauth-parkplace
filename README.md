@@ -1,24 +1,39 @@
 # Omniauth::Parkplace
 
-TODO: Write a gem description
+An OmniAuth strategy for integrating with the Parkplace app.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'omniauth-parkplace'
+    gem 'omniauth-parkplace', github: 'AdvancedEnergyEconomy/omniauth-parkplace'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install omniauth-parkplace
-
 ## Usage
 
-TODO: Write usage instructions here
+Run the generator using:
+
+    rails g omniauth:parkplace:install
+
+This will install an initializer to `config/initializers`.
+
+## Required ENV variables
+
+This strategy depends on the following environment variables
+
+* `PARK_PLACE_URL` - the URL that points to Parkplace
+* `PARK_PLACE_CLIENT_ID` - the client ID from Parkplace
+* `PARK_PLACE_CLIENT_SECRET` - the secret token from Parkplace
+
+You can use these environment variables to test against different instances of
+the Parkplace app.
+
+**Gotcha:** When using `dotenv` to load ENV variables from a `.env` file,
+make sure that `gem 'dotenv'` appears before `gem 'omniauth-parkplace'` in your
+`Gemfile`
 
 ## Contributing
 

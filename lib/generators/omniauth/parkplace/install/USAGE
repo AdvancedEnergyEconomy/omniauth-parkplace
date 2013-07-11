@@ -1,1 +1,1 @@
-Adds omniauth initializer to setup the parkplace strategy
+Adds omniauth.rb initializer to setup the parkplace strategy.
