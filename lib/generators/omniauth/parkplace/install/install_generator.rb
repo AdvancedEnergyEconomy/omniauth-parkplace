@@ -8,6 +8,7 @@ module Omniauth
 
         def create_parkplace_initializer
           copy_file 'omniauth.rb', 'config/initializers/omniauth.rb'
+          copy_file 'test_omniauth_config.rb', 'spec/support/test_omniauth_config.rb'
         end
       end
     end
