@@ -1,7 +1,2 @@
-require "omniauth/parkplace/version"
-
-module Omniauth
-  module Parkplace
-    # Your code goes here...
-  end
-end
+require 'omniauth/parkplace/version'
+require 'omniauth/strategies/park_place'
