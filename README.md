@@ -3,6 +3,10 @@
 An OmniAuth strategy for integrating with the Parkplace app.
 
 ## Installation
+`omniauth-parkplace` is hosted on a private gem server. Add the following source
+to the top of your Gemfile
+
+    source 'https://eNwLMP6DHBAy2QF9bYkg@gem.fury.io/me/'
 
 Add this line to your application's Gemfile:
 
