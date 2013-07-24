@@ -1,6 +1,6 @@
 # Omniauth::Parkplace
 
-An OmniAuth strategy for integrating with the Parkplace app.
+An OmniAuth strategy for integrating with the Park Place app.
 
 ## Installation
 `omniauth-parkplace` is hosted on a private gem server. Add the following source
@@ -26,14 +26,16 @@ This will install an initializer to `config/initializers`.
 
 ## Required ENV variables
 
-This strategy depends on the following environment variables
+This strategy depends on the following environment variables:
 
-* `PARK_PLACE_URL` - the URL that points to Parkplace
-* `PARK_PLACE_CLIENT_ID` - the client ID from Parkplace
-* `PARK_PLACE_CLIENT_SECRET` - the secret token from Parkplace
+* `PARK_PLACE_URL` - the URL that points to Park Place
+* `PARK_PLACE_CLIENT_ID` - the client ID from Park Place
+* `PARK_PLACE_CLIENT_SECRET` - the secret token from Park Place
 
-You can use these environment variables to test against different instances of
-the Parkplace app.
+You can set their values by following the instructions
+[here](https://github.com/AdvancedEnergyEconomy/parkplace/tree/laSSO#hooking-up-an-sso-client-app-to-park-place) to hook up your application to Park Place as a SSO client application.
+
+These variables can be used to test against different instances of the Park Place app.
 
 **Gotcha:** When using `dotenv` to load ENV variables from a `.env` file,
 make sure that `gem 'dotenv'` appears before `gem 'omniauth-parkplace'` in your
