@@ -11,7 +11,10 @@ module OmniAuth
 
       info do
         {
-          email: user_hash['email']
+          email: user_hash['email'],
+          first_name: user_hash['first_name'],
+          last_name: user_hash['last_name'],
+          parkplace_affiliations: user_hash['parkplace_affiliations']
         }
       end
 
